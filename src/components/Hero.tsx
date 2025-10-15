@@ -9,7 +9,7 @@ const Hero = () => {
   };
 
   const stats = [
-    { value: "10+", label: "Years Experience" },
+    { value: "7+", label: "Years Experience" },
     { value: "64+", label: "Completed Projects" },
     { value: "151+", label: "Happy Clients" },
   ];
@@ -43,9 +43,9 @@ const Hero = () => {
                   Creative Director & Designer
                 </p>
                 <h1 className="text-6xl md:text-8xl font-black leading-[0.9] tracking-tight">
-                  <span className="text-foreground block">Arman</span>
+                  <span className="text-foreground block">ARMAN</span>
                   <span className="text-primary glow-text-lg block bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent animate-glow-pulse">
-                    Hossain
+                    HOSSAIN
                   </span>
                 </h1>
               </div>
