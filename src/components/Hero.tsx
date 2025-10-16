@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 import { ArrowDown, Sparkles, Zap } from "lucide-react";
-import armanPortrait from "@/assets/arman-portrait.jpg";
+import armanPortrait from "@/assets/profile-banner.png";
 
 const Hero = () => {
   const scrollToPortfolio = () => {
