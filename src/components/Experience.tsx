@@ -4,12 +4,20 @@ import { Card } from "./ui/card";
 const Experience = () => {
   const experiences = [
     {
+      year: "July 2025 - Present",
+      role: "Sr. Graphic Designer",
+      company: "Digital Crop",
+      description:
+        "Leading design initiatives and creating innovative visual solutions for diverse client projects.",
+      highlight: true,
+    },
+    {
       year: "2024 - Present",
       role: "Founder & Creative Head",
       company: "Craftiq Studio",
       description:
         "Founded and led a full-service design agency focusing on branding, packaging, motion design, and content creation.",
-      highlight: true,
+      highlight: false,
     },
     {
       year: "2023 - 2024",
