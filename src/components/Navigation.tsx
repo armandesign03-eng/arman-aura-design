@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
+import logo from "@/assets/logo.png";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -42,9 +43,9 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           <button
             onClick={() => scrollToSection("home")}
-            className="text-2xl font-bold text-primary glow-text-md hover:glow-text-lg transition-all"
+            className="hover:opacity-80 transition-opacity"
           >
-            AH
+            <img src={logo} alt="Arman Logo" className="h-10 w-auto" />
           </button>
 
           {/* Desktop Navigation */}
